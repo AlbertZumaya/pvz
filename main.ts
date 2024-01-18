@@ -1,5 +1,7 @@
+info.changeCountdownBy(30)
 tiles.setCurrentTilemap(tilemap`level1`)
 let mySprite = sprites.create(assets.image`Cross`, SpriteKind.Player)
+mySprite.setStayInScreen(true)
 grid.snap(mySprite)
 grid.moveWithButtons(mySprite)
-grid.place(mySprite, tiles.getTileLocation(0, 0))
+grid.place(mySprite, tiles.getTileLocation(2, 3))

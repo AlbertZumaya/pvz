@@ -64,12 +64,6 @@
         "tilemapTile": true,
         "displayName": "myTile7"
     },
-    "tile13": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile10"
-    },
     "tile14": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -94,10 +88,16 @@
         "tilemapTile": true,
         "displayName": "myTile13"
     },
+    "tile13": {
+        "data": "hwQQABAAAADu7u7u7u7u7k5ERERERETkTgAAAAAAAOROAAAAAAAA5E4AAAAAAADkTgAAAAAAAOROAAAAAAAA5E4AAAAAAADkTgAAAAAAAOROAAAAAAAA5E4AAAAAAADkTgAAAAAAAOROAAAAAAAA5E4AAAAAAADkTkREREREROTu7u7u7u7u7g==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile10"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwYjAwMDkwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjA1MDEwNDAxMDEwNDAxMDEwNDAwMDIwNTAxMDEwMTAxMDEwNDAxMDEwMDAzMDUwMTAxMDQwMTA0MDEwMTA0MDAwMjA1MDEwNDAxMDEwMTAxMDEwMTAwMDIwNTAxMDEwNDAxMDEwMTAxMDQwMDA4MDcwNjA3MDYwODA2MDcwNjA2MDgwODA2MDgwNjA2MDcwNjA2MDYwNjA4MDgwNjA3MDYwODA2MDYwODA3MDYwODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMDI=",
+        "data": "MTAwYjAwMDkwMDA5MGMwYzBjMGMwYzBjMGMwYzBjMGQwOTAyMDUwMTA0MGEwMTA0MDEwNDAxMDkwMjA1MDEwMTBhMDEwNDAxMDQwMTA5MDMwNTAxMDQwYTAxMDEwMTA0MDEwOTAyMDUwMTAxMGEwMTA0MDEwMTA0MDkwMjA1MDEwNDBhMDQwMTAxMDQwMTA5MDcwNjA3MDYwODA2MDcwNjA2MDgwYjA2MDgwNjA2MDcwNjA2MDYwNjA4MGIwNjA3MDYwODA2MDYwODA3MDYwODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA=",
         "tileset": [
             "myTiles.transparency16",
             "sprites.dungeon.darkGroundCenter",
@@ -107,7 +107,12 @@
             "myTiles.tile16",
             "sprites.dungeon.floorLight0",
             "sprites.dungeon.floorLight1",
-            "sprites.dungeon.floorMixed"
+            "sprites.dungeon.floorMixed",
+            "myTiles.tile13",
+            "sprites.dungeon.darkGroundEast",
+            "sprites.dungeon.stairSouth",
+            "sprites.dungeon.stairLadder",
+            "sprites.dungeon.stairWest"
         ],
         "displayName": "level1"
     },

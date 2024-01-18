@@ -23,8 +23,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile10 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile13 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile14 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile15 = image.ofBuffer(hex``);
@@ -32,21 +30,23 @@ namespace myTiles {
     export const tile11 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile16 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile13 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "level1":
-            case "level1":return tiles.createTilemap(hex`0b000900000000000000000000000002050104010104010104000205010101010104010100030501010401040101040002050104010101010101000205010104010101010400080706070608060706060808060806060706060606080806070608060608070608`, img`
+            case "level1":return tiles.createTilemap(hex`0b000900090c0c0c0c0c0c0c0c0c0d09020501040a010401040109020501010a010401040109030501040a010101040109020501010a010401010409020501040a040101040109070607060806070606080b060806060706060606080b06070608060608070608`, img`
 . . . . . . . . . . . 
 . . . . . . . . . . . 
 . . . . . . . . . . . 
 . . . . . . . . . . . 
 . . . . . . . . . . . 
 . . . . . . . . . . . 
-2 2 2 2 2 2 2 2 2 2 2 
-2 2 2 2 2 2 2 2 2 2 2 
-2 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,sprites.dungeon.darkGroundCenter,sprites.castle.tilePath5,myTiles.tile11,sprites.dungeon.darkGroundNorthEast1,myTiles.tile16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorMixed], TileScale.Sixteen);
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+. . . . . . . . . . . 
+`, [myTiles.transparency16,sprites.dungeon.darkGroundCenter,sprites.castle.tilePath5,myTiles.tile11,sprites.dungeon.darkGroundNorthEast1,myTiles.tile16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight1,sprites.dungeon.floorMixed,myTiles.tile13,sprites.dungeon.darkGroundEast,sprites.dungeon.stairSouth,sprites.dungeon.stairLadder,sprites.dungeon.stairWest], TileScale.Sixteen);
         }
         return null;
     })
@@ -74,8 +74,6 @@ namespace myTiles {
             case "tile9":return tile9;
             case "myTile7":
             case "tile10":return tile10;
-            case "myTile10":
-            case "tile13":return tile13;
             case "myTile11":
             case "tile14":return tile14;
             case "myTile12":
@@ -84,6 +82,8 @@ namespace myTiles {
             case "tile11":return tile11;
             case "myTile13":
             case "tile16":return tile16;
+            case "myTile10":
+            case "tile13":return tile13;
         }
         return null;
     })
