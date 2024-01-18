@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAREQAAAAAREQEAAAAAAAAQAQAAAAAAABABAAAAAAAAEAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAEBEREQAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAEAEAAAAAAAAQAQAAAAAAABAREQAAAAAREQ==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Cross"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
